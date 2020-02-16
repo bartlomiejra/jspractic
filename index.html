@@ -1,78 +1,59 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>JavaScript -DOcument Element Animiation</title>
 
-    <head>
+    <style>
+      .h-normal {
+        color: #000;
+        font-size: 45px;
+        background-color: yellow;
+        padding: 12px;
+        width: 40%;
+      }
 
-        <title>JavaScript -DOcument Element Animiation </title>
+      .h-chenged {
+        color: #fff;
+        font-size: 45px;
+        background-color: green;
+        padding: 12px;
+        width: 40%;
+      }
+    </style>
+  </head>
 
-<style>
+  <body>
+    <h1 id="my-heading">Welcome To This Video!</h1>
 
-  .h-normal{
-    color: #000;
-    font-size: 45px;
-    background-color: yellow;
-    padding: 12px;
-    width: 40%;
-    
-  }
+    <!-- <button id="btn" onclick="alert('You just clicked me! 1 method')" > Click ME!</button> -->
 
-  .h-chenged{
-    color: #fff;
-    font-size: 45px;
-    background-color: green;
-    padding: 12px;
-    width: 40%;
-    
-  }
-</style>
+    <!-- <button id="btn" onclick="doSomething()" > Click ME!</button> -->
+    <button id="btn">Click me</button>
 
-    </head>
+    <a id="click-me" href="https://www.google.com"> Click ME!</a>
 
-    <body>
+    <button id="btn2">Chenge btn font size</button>
 
+    <style>
+      :root {
+        color: WHITE;
+        background: black;
+      }
+    </style>
 
-		<h1 id="my-heading"> Welcome To This Video! </h1>
-
- <!-- <button id="btn" onclick="alert('You just clicked me! 1 method')" > Click ME!</button> -->
- 
- <!-- <button id="btn" onclick="doSomething()" > Click ME!</button> -->
-
-
- <button id="btn"> Click ME!</button>
- 
- <button id="btn2"> Chenge btn font size</button>
-
-
-
- 
- 
- 
- 
-<style>
-:root{
-  color: WHITE;
-  background: black;
-}
-</style>
-
-
-		<ul id="my-list">
+    <ul id="my-list">
       <li id="li-01">This is list item # 1</li>
       <li>This is list item # 2</li>
       <li>This is list item # 3</li>
     </ul>
 
+    <input type="text" name="user-name" value="hello" /><br /><br />
 
+    <img src="js.png" alt="js" width="60" height="60" /><br /><br />
 
-		<input type="text" name="user-name" value="hello"><br><br>
+    <!-- link to read more -->
+    <a href="https://www.myblog.com"> Read More...</a>
 
-		<img src="js.png" alt="js" width="60" height="60"><br><br>
-
-		<!-- link to read more -->
-		<a href="https://www.myblog.com"> Read More...</a>
-
-        <script src="myScript.js"></script>
-
-    </body>
-
+    <script src="myScript.js"></script>
+  </body>
 </html>
