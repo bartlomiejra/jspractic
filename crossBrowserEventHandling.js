@@ -15,5 +15,7 @@ var addEvent = function(el, type, func) {
 var getTarget = function(event) {
   if (typeof event.target !== 'undefined') {
     return event.target;
+  } else {
+    return event.srcElement
   }
 };
