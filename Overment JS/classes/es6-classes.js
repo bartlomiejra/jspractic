@@ -1,3 +1,6 @@
+//Nowa składnia dostepna od es6 z klasami
+
+
 class Media {
     constructor(type, name, author) {
         this.type = type;
